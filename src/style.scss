@@ -1,1 +1,50 @@
 @import "vanilla-framework";
+
+@include vf-base;
+
+@include vf-p-card;
+
+.p-card--highlighted {
+  overflow: auto;
+  width: 332px;
+  margin: 15px;
+  border-radius: 2px;
+  border-top: 3px solid #a87ca0;
+  padding: 1rem 1rem 0.5rem;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+hr {
+  border-top: dotted 1px grey;
+  background: white;
+}
+
+.p-muted-heading {
+  text-transform: uppercase;
+  margin-bottom: 11px !important;
+}
+
+.blog-p-card__footer {
+  margin-bottom: 3px !important;
+}
+
+.postsContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.p-card__inner {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+}
